@@ -1,0 +1,640 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 1440px;
+  height: 773px;
+  margin: 0 auto;
+}
+
+.image-container img.heroimage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-container img.logo1 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 101px;
+  height: 35px;
+}
+.image-container img.logo1:hover {
+  opacity: 0.5;
+  color: gray;
+}
+.image-container img.language {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  width: 40px;
+}
+.image-container img.language:hover {
+  opacity: 0.5;
+}
+
+.image-container img.user {
+  position: absolute;
+  top: 30px;
+  right: 500px;
+  height: 20px;
+  width: 20px;
+  opacity: 1;
+}
+
+.image-container img.user:hover {
+  opacity: 0.5;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 450px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+}
+.home-button:hover {
+  color: black;
+}
+.about-button {
+  position: absolute;
+  top: 20px;
+  left: 600px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+}
+.about-button:hover {
+  color: black;
+}
+.contact-button {
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+}
+.contact-button:hover {
+  color: black;
+}
+.hero-text {
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  background: transparent;
+  width: 618;
+  height: 80;
+  top: 80px;
+  color: white;
+  font-size: 80px;
+  right: 580px;
+  opacity: 0.5;
+}
+.hero-text2 {
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  background: transparent;
+  width: 618;
+  height: 250;
+  top: -25px;
+  color: white;
+  font-size: 250px;
+  right: 410px;
+}
+.hero-text3 {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  position: absolute;
+  width: 144px;
+  height: 64px;
+  font-size: 64px;
+  color: white;
+  right: 650px;
+  top: 420px;
+}
+.downbor {
+  position: absolute;
+  background-color: mediumturquoise;
+  height: 370px;
+  border-radius: 40px;
+  width: 270px;
+  top: 60px;
+}
+.downbor.bor1 {
+  left: 520px;
+}
+.downbor.bor3 {
+  left: 840px;
+}
+.downbor.bor5 {
+  right: 810px;
+}
+.downbor.bor7 {
+  right: 500px;
+}
+.upbor {
+  width: 270px;
+  position: absolute;
+  height: 370px;
+  top: 50px;
+  border-radius: 40px;
+  box-shadow: -10px -10px lightblue;
+}
+.upbor.bor2 {
+  left: 510px;
+}
+.upbor.bo4 {
+  left: 830px;
+}
+.upbor.bor6 {
+  right: 820px;
+}
+.upbor.bor8 {
+  right: 510px;
+}
+
+.location-text {
+  position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+  width: 232px;
+  height: 88px;
+  top: 70px;
+  font-size: 37px;
+  color: white;
+  opacity: 0.7;
+}
+.location-text.l1 {
+  left: 10px;
+}
+.location-text.l2 {
+  left: 10px;
+}
+.location-text.l3 {
+  right: 20px;
+}
+.location-text.l4 {
+  right: 25px;
+}
+.black {
+  height: 370px;
+  position: absolute;
+  border-radius: 40px;
+  top: 50px;
+  width: 270px;
+}
+.black.b1 {
+  left: 510px;
+}
+.black.b1:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.black.b1:hover .l1 {
+  opacity: 1;
+}
+.black.b2 {
+  left: 830px;
+}
+.black.b2:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.black.b2:hover .l2 {
+  opacity: 1;
+}
+.black.b3 {
+  right: 820px;
+}
+.black.b3:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.black.b3:hover .l3 {
+  opacity: 1;
+}
+.black.b4 {
+  right: 510px;
+}
+.black.b4:hover .l4 {
+  opacity: 1;
+}
+.black.b4:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.siti {
+  position: relative;
+}
+.zuvn {
+  position: absolute;
+  border-radius: 70px;
+  width: 513px;
+  height: 112px;
+  left: 520px;
+  opacity: 0.9;
+}
+.zuvn.n1 {
+  background-color: beige;
+  top: 265px;
+  border: 4px solid black;
+  border: none;
+}
+
+.su {
+  position: absolute;
+  left: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  top: 0px;
+  width: 318px;
+  height: 29px;
+  font-weight: 500px;
+}
+.tseg {
+  position: absolute;
+  left: 60px;
+  height: 14px;
+  width: 14px;
+  top: 60px;
+}
+.ulaan {
+  position: absolute;
+  left: 80px;
+  top: 48px;
+  width: 68px;
+  height: 15px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+.day {
+  position: absolute;
+  top: 30px;
+  left: 430px;
+  width: 52px;
+  height: 48px;
+  background-color: white;
+  border-radius: 100px;
+  border: none;
+}
+
+.zuvn.n3 {
+  background-color: lightcyan;
+  top: 530px;
+}
+
+.zuvn.n4 {
+  background-color: lightgreen;
+  top: 660px;
+}
+
+.zuvn.n5 {
+  background-color: lightsteelblue;
+  top: 790px;
+}
+
+.road-text1 {
+  width: 1442px;
+  height: 20px;
+  position: absolute;
+  top: 164px;
+  left: 390px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.road-text2 {
+  width: 1442px;
+  height: 51px;
+  position: absolute;
+  top: 80px;
+  left: 390px;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.footer-text1 {
+  width: 1440px;
+  height: 51px;
+  font-size: 42px;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 15px;
+  left: 390px;
+}
+.footer-text2 {
+  width: 1440px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  position: absolute;
+  top: 90px;
+  left: 390px;
+}
+.logo2 {
+  width: 101px;
+  height: 35px;
+  bottom: 60px;
+  right: 500px;
+  position: absolute;
+}
+.jjg1 {
+  width: 167px;
+  height: 44px;
+  position: absolute;
+  bottom: 60px;
+  left: 500px;
+  background-color: white;
+  border-radius: 60px;
+}
+.jjg2 {
+  width: 167px;
+  height: 44px;
+  position: absolute;
+  bottom: 60px;
+  left: 690px;
+  background-color: white;
+  border-radius: 60px;
+  text-align: center;
+}
+.ig {
+  width: 97px;
+  height: 22px;
+  position: absolute;
+  bottom: 53px;
+  left: 740px;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: rgb(85, 85, 161);
+}
+.icon {
+  position: absolute;
+  bottom: 73px;
+  height: 21.2px;
+  border-radius: 50px;
+  width: 21px;
+}
+.ig-icon {
+  left: 710px;
+}
+.fb {
+  width: 97px;
+  height: 22px;
+  position: absolute;
+  bottom: 52px;
+  left: 550px;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: rgb(85, 85, 161);
+}
+.fb-icon {
+  left: 525px;
+}
+.durvul {
+  position: absolute;
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  bottom: 380px;
+}
+.durvul:hover {
+  box-shadow: 10px 10px 10px 10px rgba(14, 12, 12, 0.5);
+}
+.durvul:hover .tsenher {
+  background-color: rgb(74, 72, 72);
+}
+.durvul:hover .tsenher p.texdt {
+  color: white;
+}
+
+.durvul.d1 {
+  left: 510px;
+}
+.durvul.d2 {
+  left: 930px;
+}
+.durvul.d3 {
+  right: 500px;
+}
+.footer-dis {
+  display: flex;
+}
+.price {
+  width: 336px;
+  height: 49px;
+  font-weight: 500px;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  margin-left: -90px;
+  margin-top: 30px;
+}
+.esse {
+  width: 336px;
+  height: 19px;
+  color: gray;
+  margin-left: -80px;
+  margin-top: -20px;
+}
+.footeri {
+  height: 36px;
+}
+.includes {
+  width: 256px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 500px;
+  font-family: "inter" serif;
+  margin-left: -30px;
+}
+.footer-dis img.zow1 {
+  height: 20px;
+}
+.Group {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+.siti1 {
+  display: flex;
+  margin-top: 20px;
+}
+.zow {
+  width: 20px;
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.footer-icon {
+  width: 36px;
+  padding: 10px;
+  padding-top: 30px;
+  margin: 10px;
+}
+.footer-ug1 {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  margin-left: 5px;
+}
+.tsenher {
+  width: 336px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: lightblue;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+.tsenher p.texdt {
+  width: 117px;
+  height: 20px;
+  font-size: 16px;
+  font-family: "inter" sans-serif;
+  font-weight: 800;
+  padding-top: 13px;
+  padding-left: 100px;
+  color: black;
+  line-height: 20px;
+}
+.durvul-text {
+  width: 158px;
+  height: 22px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  margin-top: 47px;
+}
+.esse1 {
+  width: 336px;
+  height: 19px;
+  margin-left: 80px;
+  margin: 0;
+  color: gray;
+}
+.popular {
+  background-color: rgb(123, 123, 217);
+  padding: 9px;
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  margin-left: 120px;
+}
+.siti2 {
+  margin-left: -10px;
+  margin-top: -20px;
+}
+.zuvn.n1:hover {
+  border: 4px solid white;
+}
+.zuvn.n2 {
+  background-color: lightseagreen;
+  top: 400px;
+}
+.zuvn.n2:hover {
+  border: 4px solid white;
+}
+.zuvn.n3:hover {
+  border: 4px solid white;
+}
+.zuvn.n4:hover {
+  border: 4px solid white;
+}
+.zuvn.n5:hover {
+  border: 4px solid white;
+}
+.brnhi {
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  display: none;
+}
+.brnhi.i1 {
+  margin-top: 70px;
+  margin-left: 920px;
+}
+.zuvn.n1:hover .brnhi.i1 {
+  display: block;
+}
+.brnhi.i2 {
+  margin-top: -184px;
+  margin-left: 737px;
+}
+.zuvn.n2:hover .brnhi.i2 {
+  display: block;
+}
+.brnhi.i3 {
+  margin-top: -180px;
+  margin-left: 576px;
+}
+.zuvn.n3:hover .brnhi.i3 {
+  display: block;
+}
+.brnhi.i4 {
+  margin-top: -38px;
+  margin-left: 769px;
+}
+.zuvn.n4:hover .brnhi.i4 {
+  display: block;
+}
+.brnhi.i5 {
+  margin-top: -650px;
+  margin-left: 500px;
+}
+.zuvn.n5:hover .brnhi.i5 {
+  display: block;
+}
+.mappin {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.mappin.p2 {
+  margin-top: -100px;
+  margin-left: 850px;
+}
+.mappin.p3 {
+  margin-top: -100px;
+  margin-left: 650px;
+}
+.mappin.p1 {
+  margin-top: 185px;
+  margin-left: 1049px;
+}
+.mappin.p4 {
+  margin-top: 20px;
+  margin-left: 850px;
+}
