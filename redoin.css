@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.herodiv1,
+.herodiv2,
+.herodiv3,
+.herodiv4 {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+.herodiv1 {
+  aspect-ratio: 1.86286;
+  flex-wrap: wrap;
+}
+.heroimage,
+.Location,
+.roadmap,
+.footer {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+.herodiv2 {
+  aspect-ratio: 2.88;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Location {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.herodiv3 {
+  aspect-ratio: 1.409;
+}
+.herodiv4 {
+  aspect-ratio: 1.28342;
+}
+.header {
+  display: flex;
+  width: 85%;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerjjg {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.headerjjg button {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  height: 22px;
+}
+.headerjjg button:hover {
+  color: rgb(107, 104, 104);
+}
+.headerjjg img {
+  width: 20px;
+  height: 20px;
+}
+.headerjjg img:hover {
+  opacity: 0.7;
+}
+.logo1 {
+  height: 35px;
+  width: 101px;
+}
+.logo1:hover {
+  opacity: 0.7;
+}
+.EN {
+  height: 40px;
+  width: 40px;
+}
+.EN:hover {
+  opacity: 0.7;
+}
+.hero-text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 43%;
+  height: 63.778%;
+  font-family: "Bebas Neue", sans-serif;
+  justify-content: center;
+  align-content: flex-start;
+}
+.hero-text > h2 {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 80px;
+  font-weight: 400;
+  width: fit-content;
+  width: 100%;
+  height: 80px;
+}
+.hero-text > h1 {
+  width: 100%;
+  height: 250px;
+  color: white;
+  font-size: 250px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-text > p {
+  font-size: 64px;
+  font-weight: 900;
+  color: #e8edf2b8;
+  width: 144px;
+  height: 64px;
+}
+.locdiv {
+  position: relative;
+  height: 74%;
+  width: 19.13125%;
+  display: flex;
+  border-radius: 40px;
+  box-shadow: -10px -10px rgb(101, 194, 225), 10px 10px rgb(73, 120, 149);
+  align-items: center;
+  justify-content: center;
+}
+.locdiv img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+.hoverish {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  border-radius: 40px;
+  opacity: 0;
+}
+.hoverish:hover {
+  opacity: 0.4;
+}
+
+.l1 {
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 37px;
+  text-align: center;
+  opacity: 0.8;
+  color: #ffffff;
+}
+.hoverish:hover.l1 {
+  opacity: 1;
+  font-weight: 500;
+}
